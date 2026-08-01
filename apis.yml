@@ -1,7 +1,30 @@
 aid: sheetrocks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sheetrocks.png
 name: SheetRocks
-description: SheetRocks is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SheetRocks is a spreadsheet engine embedded directly into the business
+  platforms teams already use. Branded "The Spreadsheet for Everywhere," it
+  brings keyboard-driven data entry, formula-based analytics, and
+  spreadsheet-in-the-loop workflows inside host applications such as
+  Salesforce (live), WooCommerce and Gravity Forms (beta), and Shopify,
+  HubSpot, and ServiceNow (announced). The product targets operators,
+  analysts, and builders who want a familiar grid plus instant workflow
+  invocation without leaving their platform of record. SheetRocks is a
+  portfolio company of Bloomberg Beta. As of this enrichment pass it exposes
+  no public REST/GraphQL API, OpenAPI specification, SDKs, or webhook surface;
+  it does publish product documentation, a free sandbox, and a responsible
+  security-disclosure policy.
 url: https://raw.githubusercontent.com/api-evangelist/sheetrocks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Spreadsheet
+- No-Code
+- Workflow Automation
+- Salesforce
+- Embedded Analytics
+- Business Applications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://sheet.rocks/
+- type: Documentation
+  url: https://sheet.rocks/docs/
+- type: VulnerabilityDisclosure
+  url: security/sheetrocks-vulnerability-disclosure.yml
+- type: Security
+  url: security/sheetrocks-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sheetrocks-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
