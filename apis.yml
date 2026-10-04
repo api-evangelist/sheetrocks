@@ -50,7 +50,7 @@ tags:
 - Company
 - Spreadsheets
 - No-Code
-- Workflow-Automation
+- Workflow Automation
 - Salesforce
 - Embedded Analytics
 - Business Applications
@@ -62,6 +62,7 @@ tags_raw:
 - Salesforce
 - Embedded Analytics
 - Business Applications
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
